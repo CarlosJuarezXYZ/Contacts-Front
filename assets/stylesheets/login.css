@@ -1,0 +1,98 @@
+.login {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+
+.js-login-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.login-title{
+    padding: 12px 10px;
+    border-bottom: var(--border-grey);
+}
+
+.login-title h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+ 
+ .js-login-inputs{
+  width: 100%;
+  display: block;
+  flex: 1;
+} 
+
+.js-container-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:56px;   
+}
+
+.js-container-email input{
+    width: 235px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: var(--border-grey);
+    color: var(--font-dark-grey);
+}
+
+.js-container-email input::placeholder{
+    color:var(--font-dark-grey);
+}
+
+.js-container-email input:focus{
+    outline:none;
+}
+
+.js-container-password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 56px;
+}
+
+.js-container-password input{
+    width: 235px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: var(--border-grey);
+    color: var(--font-dark-grey);
+}
+
+.js-container-password input::placeholder{
+    color:var(--font-dark-grey);
+}
+
+.js-container-password input:focus{
+    outline: none;
+}
+.js-login-signup{
+   width: 355px;
+   height: 50px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   border-top: var(--border-grey);
+}
+
+.js-login-signup a {
+    margin: 26px;
+    font-weight: 400px;
+}
+
+.js-btn-login {
+    border: none;
+    color: var(--font-blue) !important;
+}
